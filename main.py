@@ -108,7 +108,7 @@ class PDFEditor(QMainWindow):
         sidebar_layout = QVBoxLayout(sidebar)
         sidebar_layout.setContentsMargins(0, 20, 0, 20)
 
-        title = QLabel("PDF PRO")
+        title = QLabel("PDF Editor PRO")
         title.setStyleSheet("color: white; font-weight: bold; font-size: 18px; margin: 20px;")
         sidebar_layout.addWidget(title)
 
